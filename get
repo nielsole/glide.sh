@@ -112,7 +112,7 @@ testVersion() {
 	set +e
 	GLIDE="$(which $PROJECT_NAME)"
 	if [ "$?" = "1" ]; then
-		echo "$PROJECT_NAME not found. Did you add "'$LGOBIN'" to your "'$PATH?'
+		echo "$PROJECT_NAME not found. Did you add $LGOBIN to your "'$PATH?'
 		exit 1
 	fi
 	set -e
